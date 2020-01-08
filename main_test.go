@@ -12,8 +12,8 @@ func Test_distanceCalculation(t *testing.T) {
 		want float32
 	}{
 		// TODO: Add test cases.
-{"distanceForPerKm",150, 0.8, 187.5 },
-{"distanceForBmw", 200, 0.5, 400},
+		{"distanceForPerKm", 150, 0.8, 168.75},
+		{"distanceForBmw", 200, 0.5, 360},
 	}
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
